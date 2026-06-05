@@ -14,6 +14,7 @@ PC with Linux operating system
 6]	The encrypted form of the message is displayed.
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 ## Program
+```tcl
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -104,12 +105,13 @@ printf("%c",m[i]);
 }
 
 
+```
+
+# OUTPUT:
+
+<img width="376" height="520" alt="image" src="https://github.com/user-attachments/assets/a18bce37-b9a0-491a-9b95-bf37b10a6f73" />
 
 
 
-
-
-SAMPLE OUTPUT:
-
-RESULT:
+# RESULT:
 Thus the encryption and decryption is implemented and the output is obtained and verified successfully
